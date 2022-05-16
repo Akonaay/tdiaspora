@@ -11005,9 +11005,9 @@ header {
     font-size: 19px !important;
 }
 
-header.nav-fixed {
-    background-color: rgba(70%, 27%, 28%, 49);
-}
+/* header.nav-fixed {
+    background-color: var(--bg-color);
+} */
 
 
 /* header.nav-fixed .navbar-brand img {
@@ -11022,7 +11022,7 @@ header.nav-fixed {
     background-size: cover;
     /* linear-gradient(to right, rgba(238, 219, 219, 0.7), rgba(192, 153, 153, 0.445)), */
     background-image: linear-gradient(to right, rgba(63, 123, 141, 0.26), rgba(30, 138, 84, 0.685)),
-    url(../img/banner2.jpg);
+    url(../img/banner4.jpg);
     background-repeat: no-repeat,
     no-repeat,
     no-repeat;
@@ -11206,6 +11206,17 @@ header.nav-fixed {
 /* Feature 01  */
 
 .back-image-sec {
+    background: url(../img/connect.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    position: relative;
+    /* border-radius: 3px; */
+}
+
+.back-image-sec-2 {
     background: url(../img/grid-8.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
@@ -11701,13 +11712,14 @@ header.nav-fixed {
 /* Call for action  */
 
 .call-for-action-bg {
+  
+
     background-size: cover;
-    /* linear-gradient(to right, rgba(238, 219, 219, 0.7), rgba(192, 153, 153, 0.445)), */
-    background-image: linear-gradient(to right, rgba(63, 123, 141, 0.26), rgba(30, 138, 84, 0.685)), url(../img/action-call-bg.jpg);
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    min-height: 400px !important;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.57), rgba(0, 0, 0, 0.33)), url(../img/contact-us.jpg);
+        background-repeat: no-repeat, no-repeat, no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        min-height: calc(65vh - 0px);
 }
 
 .m-10 {
