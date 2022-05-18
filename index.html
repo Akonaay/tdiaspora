@@ -241,6 +241,40 @@
     </div>
   </div>
 
+  <div class="py-5">
+    <div class="container">
+      <div class="header-title mb-4">
+        <span class="sub-title">Invest Home While Away</span>
+        <h3 class="hny-title text-left text-black-50">Diaspora Banking</h3>
+        <p>Join our Diaspora family today to enjoy account benefits and advantages that allow you to save in the home economy,
+        invest in various areas particularly in real estate (personal homes) and help spur the growth of SMEs in Tanzania.</p>
+      </div>
+      
+      <div class="mt-5">
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <img src="/assets/img/banks/Azania-Bank-Logo-Landscape.png" width="150px" alt="">
+          </div>
+          <div class="item">
+            <img src="/assets/img/banks/equity-bank-logo.png" width="150px" alt="">
+          </div>
+          <div class="item">
+            <img src="/assets/img/banks/kcb.svg" width="150px" alt="">
+          </div>
+          <div class="item">
+            <img src="/assets/img/banks/logo-3D.png" width="150px" alt="">
+          </div>
+          <div class="item">
+            <img src="/assets/img/banks/UBA-Logo.svg" width="150px" alt="">
+          </div>
+          <div class="item bg-dark">
+            <img src="/assets/img/banks/amana.png" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- gallery section -->
   <section class="w3l-gallery py-2" id="gallery">
     <div class="container py-md-5 py-4">
@@ -622,10 +656,10 @@
   <!-- script for banner slider-->
   <script>
     $(document).ready(function () {
-      $('.owl-one').owlCarousel({
+      $('.owl-carousel').owlCarousel({
         loop: true,
         margin: 0,
-        nav: false,
+        nav: true,
         responsiveClass: true,
         autoplay: true,
         autoplayTimeout: 5000,
@@ -633,16 +667,16 @@
         autoplayHoverPause: false,
         responsive: {
           0: {
-            items: 1
+            items: 3
           },
           480: {
             items: 1
           },
           667: {
-            items: 1
+            items: 4
           },
           1000: {
-            items: 1
+            items: 5
           }
         }
       })
