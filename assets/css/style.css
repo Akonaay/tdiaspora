@@ -12725,7 +12725,7 @@ body:after {
     color: var(--dark);
     background-color: #FBF7EE;
     font-weight: 500;
-    border-radius: 20px 0 20px 50px;
+    /* border-radius: 20px 0 20px 50px; */
     transition: .3s ease;
     -webkit-transition: .3s ease;
     -moz-transition: .3s ease;
