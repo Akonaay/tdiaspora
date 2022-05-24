@@ -11822,17 +11822,12 @@ header {
 }
 
 .story h4{
-    font-size: 32px;
+    /* font-size: 32px; */
     font-weight: 600;
     color: var(--teal);
 }
 
-.story h4::before {
-    content: "-----";
-    color: var(--teal);
-    margin-right: 10px;
 
-}
 
 .story h3 {
     /* color: red; */
@@ -11861,25 +11856,6 @@ header {
     color: var(--teal);
     font-size: 26px;
     margin-top: 10px;
-}
-
-.why-us h3{
-    font-size: 32px;
-    margin-bottom: 20px;
-    font-weight: 600;
-    color: var(--teal);
-}
-
-.why-us h3::before {
-    content: "-----";
-    color: var(--teal);
-    margin-right: 10px;
-}
-
-.why-p {
-    font-size: 20px;
-    font-weight: bold;
-    color: var(--teal);
 }
 
 .team h3{
