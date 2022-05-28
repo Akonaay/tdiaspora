@@ -11808,7 +11808,7 @@ header {
     background-size: cover;
     /* linear-gradient(to right, rgba(238, 219, 219, 0.7), rgba(192, 153, 153, 0.445)), */
     background-image: linear-gradient(to right, rgba(63, 123, 141, 0.26), rgba(30, 138, 84, 0.685)),
-        url(../img/action-call-bg.jpg);
+        url(../img/about-bg.jpg);
     background-repeat: no-repeat,
         no-repeat,
         no-repeat;
@@ -11910,7 +11910,7 @@ header {
     background-size: cover;
     /* linear-gradient(to right, rgba(238, 219, 219, 0.7), rgba(192, 153, 153, 0.445)), */
     background-image: linear-gradient(to right, rgba(63, 123, 141, 0.26), rgba(30, 138, 84, 0.685)),
-    url(../img/action-call-bg.jpg);
+    url(../img/program-banner.jpg);
     background-repeat: no-repeat,
     no-repeat,
     no-repeat;
@@ -11928,7 +11928,7 @@ header {
     background-size: cover;
     /* linear-gradient(to right, rgba(238, 219, 219, 0.7), rgba(192, 153, 153, 0.445)), */
     background-image: linear-gradient(to right, rgba(63, 123, 141, 0.26), rgba(30, 138, 84, 0.685)),
-        url(../img/action-call-bg.jpg);
+        url(../img/contact-banner-1.jpg);
     background-repeat: no-repeat,
         no-repeat,
         no-repeat;
@@ -11941,6 +11941,60 @@ header {
     padding-top: 25px;
 }
 
+
+/* Get Involved Page  */
+#demo-7 {
+    background-size: cover;
+    /* linear-gradient(to right, rgba(238, 219, 219, 0.7), rgba(192, 153, 153, 0.445)), */
+    background-image: linear-gradient(to right, rgba(63, 123, 141, 0.26), rgba(30, 138, 84, 0.685)),
+        url(../img/contact-banner.jpg);
+    background-repeat: no-repeat,
+        no-repeat,
+        no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    padding-top: 25px;
+}
+
+/* Forum Page  */
+#demo-6 {
+    background-size: cover;
+    /* linear-gradient(to right, rgba(238, 219, 219, 0.7), rgba(192, 153, 153, 0.445)), */
+    background-image: linear-gradient(to right, rgba(63, 123, 141, 0.26), rgba(30, 138, 84, 0.685)),
+        url(../img/forum-banner.jpg);
+    background-repeat: no-repeat,
+        no-repeat,
+        no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    padding-top: 25px;
+}
+
+/* Our Foundation Page  */
+#demo-5 {
+    background-size: cover;
+    /* linear-gradient(to right, rgba(238, 219, 219, 0.7), rgba(192, 153, 153, 0.445)), */
+    background-image: linear-gradient(to right, rgba(63, 123, 141, 0.26), rgba(30, 138, 84, 0.685)),
+        url(../img/about-bg.jpg);
+    background-repeat: no-repeat,
+        no-repeat,
+        no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    padding-top: 25px;
+}
 
 /* Blog Page  */
 
@@ -12748,4 +12802,129 @@ body:after {
     background-size: cover;
     min-height: 75vh;
     /* background-attachment: fixed; */
+}
+
+/* Programs Page  */
+
+.feature-01 h3{
+    padding: 20px;
+    border-radius: 5px;
+    /* background-color: whitesmoke; */
+    color: blueviolet;
+    font-size: 2.561rem;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.feature-01-inner {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: var(--light);
+    color: black;
+}
+
+.feature-01-inner:hover {
+    border: 1px solid black;
+}
+
+.feature-01-inner i{
+    padding: 20px;
+    font-size: 30px;
+}
+
+.feature-01-inner p {
+    font-size: 20px;
+}
+
+.program-inner {
+    text-align: center;
+    text-decoration: none;
+    transform: translateY(-0.25rem);
+    
+}
+
+.program-inner img{
+    border-radius: 15px;
+}
+
+.program-inner h3 {
+    padding: 8px 4px;
+    font-size: 24px;
+}
+
+.program-inner h3:hover {
+    text-decoration: underline;
+}
+
+.program-inner p {
+    padding: 0 4px;
+}
+.program-inner div {
+    text-align: right !important;
+    color: black;
+}
+
+.objective-inner {
+    padding: 30px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.objective-inner i{
+    padding: 10px;
+    font-size: 24px;
+    color: #03cce6;
+}
+
+.ts-bg {
+    background: url(../img/ts2.jpg) no-repeat center;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        -ms-background-size: cover;
+        position: relative;
+        border-radius: 5px;
+}
+
+.mt-7 {
+    margin-top: 8rem !important;
+}
+
+.display-5{
+    font-size: 2.239rem;
+    /* font-weight: 800 !important; */
+}
+
+.social-handler {
+    margin-top: 40px;
+}
+
+.social-handler h4{
+    font-size: 1.516rem;
+}
+
+.social-handler ul {
+   display: flex;
+   margin-top: 25px;
+
+}
+
+.social-handler ul>li>a{
+    margin: 10px 3px;
+    font-size: 23px;
+    padding-right: 15px;
+}
+
+.social-handler ul>li>a:hover {
+    color: #040505;
+    font-weight: 600;
+}
+
+.form-inner-cont p{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.contact-icons{
+    font-size: 20px;
 }
