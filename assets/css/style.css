@@ -11206,7 +11206,7 @@ header {
 /* Feature 01  */
 
 .back-image-sec {
-    background: url(../img/connect-3.jpg) no-repeat center;
+    background: url(../img/connect-4.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -11256,7 +11256,7 @@ header {
 
 .grid-content-sec {
     background: var(--bg-color);
-    margin: 10em 1em;
+    margin: 15em 1em;
     border-radius: 8px;
 }
 
@@ -11711,19 +11711,73 @@ header {
 
 /* Call for action  */
 
-.call-for-action-bg {
-  
+.feature-05{
+    background-size: cover;
+        background-image: url(../img/footer-banner.jpg);
+        background-repeat: no-repeat, no-repeat, no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        min-height: calc(50vh - 0px);
+        padding: 20px;
+}
 
+.call-for-action-bg {
     background-size: cover;
         background-image: linear-gradient(to right, rgba(0, 0, 0, 0.57), rgba(0, 0, 0, 0.33)), url(../img/contact-us.jpg);
         background-repeat: no-repeat, no-repeat, no-repeat;
         background-position: center;
         background-attachment: fixed;
-        min-height: calc(65vh - 0px);
+        min-height: calc(50vh - 0px);
+}
+
+.call-for-action-blog-bg {
+    background-size: cover;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.57), rgba(0, 0, 0, 0.33)), url(../img/bl-banner.jpg);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: calc(50vh - 0px);
+}
+
+.call-for-action-invloved-bg{
+    background-size: cover;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.57), rgba(0, 0, 0, 0.33)), url(../img/gi-banner-2.jpg);
+        background-repeat: no-repeat, no-repeat, no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        min-height: calc(50vh - 0px);
+}
+
+.call-for-action-home-bg {
+    background-size: cover;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.57), rgba(0, 0, 0, 0.33)), url(../img/home-banner.jpg);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: calc(50vh - 0px);
+}
+
+
+.call-for-action-about-bg {
+    background-size: cover;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.57), rgba(0, 0, 0, 0.33)), url(../img/about-banner.jpg);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: calc(50vh - 0px);
+}
+
+.call-for-action-programs-bg {
+    background-size: cover;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.57), rgba(0, 0, 0, 0.33)), url(../img/pb-banner.jpg);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: calc(50vh - 0px);
 }
 
 .m-10 {
-    padding-top: 11rem;
+    padding-top: 8rem;
 }
 
 .hny-title-1 {
@@ -11910,13 +11964,13 @@ header {
     background-size: cover;
     /* linear-gradient(to right, rgba(238, 219, 219, 0.7), rgba(192, 153, 153, 0.445)), */
     background-image: linear-gradient(to right, rgba(63, 123, 141, 0.26), rgba(30, 138, 84, 0.685)),
-    url(../img/program-banner.jpg);
+    url(../img/program-banner-2.jpg);
     background-repeat: no-repeat,
     no-repeat,
     no-repeat;
     background-position: center;
     background-attachment: fixed;
-    min-height: 50vh;
+    min-height: 40vh;
     display: flex;
     align-items: center;
     overflow: hidden;
@@ -11928,7 +11982,7 @@ header {
     background-size: cover;
     /* linear-gradient(to right, rgba(238, 219, 219, 0.7), rgba(192, 153, 153, 0.445)), */
     background-image: linear-gradient(to right, rgba(63, 123, 141, 0.26), rgba(30, 138, 84, 0.685)),
-        url(../img/contact-banner-1.jpg);
+        url(../img/contact-banner-5.jpg);
     background-repeat: no-repeat,
         no-repeat,
         no-repeat;
@@ -11947,7 +12001,7 @@ header {
     background-size: cover;
     /* linear-gradient(to right, rgba(238, 219, 219, 0.7), rgba(192, 153, 153, 0.445)), */
     background-image: linear-gradient(to right, rgba(63, 123, 141, 0.26), rgba(30, 138, 84, 0.685)),
-        url(../img/contact-banner.jpg);
+        url(../img/get-involved.jpg);
     background-repeat: no-repeat,
         no-repeat,
         no-repeat;
@@ -11961,7 +12015,7 @@ header {
 }
 
 /* Forum Page  */
-#demo-6 {
+#demo-9 {
     background-size: cover;
     /* linear-gradient(to right, rgba(238, 219, 219, 0.7), rgba(192, 153, 153, 0.445)), */
     background-image: linear-gradient(to right, rgba(63, 123, 141, 0.26), rgba(30, 138, 84, 0.685)),
@@ -12002,7 +12056,7 @@ header {
     background-size: cover;
     /* linear-gradient(to right, rgba(238, 219, 219, 0.7), rgba(192, 153, 153, 0.445)), */
     background-image: linear-gradient(to right, rgba(63, 123, 141, 0.26), rgba(30, 138, 84, 0.685)),
-        url(../img/action-call-bg.jpg);
+        url(../img/blog-banner.jpg);
     background-repeat: no-repeat,
         no-repeat,
         no-repeat;
@@ -12022,6 +12076,7 @@ header {
     border-radius: 10px;
     text-align: center;
 }
+
 
 .pillars-inner i{
     padding: 10px;
@@ -12343,7 +12398,7 @@ body:after {
 /* Intro summary  */
 .w3l-intro .new-block {
     background-size: cover;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.57), rgba(0, 0, 0, 0.33)), url(../img/g7.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.57), rgba(0, 0, 0, 0.33)), url(../img/g8.jpg);
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -12927,4 +12982,33 @@ body:after {
 
 .contact-icons{
     font-size: 20px;
+}
+
+.membership-desc h3{
+    font-size: 22px;
+}
+
+.membership-desc span {
+    margin-bottom: 10px;
+}
+
+.membership-desc span i {
+    margin-right: 10px;
+    color: #03cce6;
+    padding: 15px;
+    background-color: #19692c;
+    margin-top: 10px;
+    font-size: 20px;
+    border-radius: 30px;
+}
+
+.membership-desc span a {
+   
+    font-size: 20px;
+}
+
+@media (max-width: 391px) {
+    .w-400{
+        font-size: 1.612rem;
+    }
 }
