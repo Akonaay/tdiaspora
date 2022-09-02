@@ -11737,11 +11737,11 @@ header {
 
 .feature-05{
     background-size: cover;
-        background-image: url(../img/footer-banner.jpg);
+      
         background-repeat: no-repeat, no-repeat, no-repeat;
         background-position: center;
         background-attachment: fixed;
-        min-height: calc(50vh - 0px);
+        min-height: calc(40vh - 0px);
         padding: 20px;
 }
 
@@ -11769,7 +11769,7 @@ header {
         background-repeat: no-repeat, no-repeat, no-repeat;
         background-position: center;
         background-attachment: fixed;
-        min-height: calc(50vh - 0px);
+        min-height: calc(20vh - 0px);
 }
 
 .call-for-action-home-bg {
@@ -11778,7 +11778,7 @@ header {
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: center;
     background-attachment: fixed;
-    min-height: calc(50vh - 0px);
+    min-height: calc(30vh - 0px);
 }
 
 
@@ -11788,7 +11788,7 @@ header {
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: center;
     background-attachment: fixed;
-    min-height: calc(50vh - 0px);
+    min-height: calc(30vh - 0px);
 }
 
 .call-for-action-programs-bg {
@@ -11892,7 +11892,7 @@ header {
         no-repeat;
     background-position: center;
     background-attachment: fixed;
-    min-height: 50vh;
+    min-height: 30vh;
     display: flex;
     align-items: center;
     overflow: hidden;
@@ -11994,7 +11994,7 @@ header {
     no-repeat;
     background-position: center;
     background-attachment: fixed;
-    min-height: 40vh;
+    min-height: 30vh;
     display: flex;
     align-items: center;
     overflow: hidden;
@@ -12012,7 +12012,7 @@ header {
         no-repeat;
     background-position: center;
     background-attachment: fixed;
-    min-height: 40vh;
+    min-height: 25vh;
     display: flex;
     align-items: center;
     overflow: hidden;
@@ -12031,7 +12031,7 @@ header {
         no-repeat;
     background-position: center;
     background-attachment: fixed;
-    min-height: 40vh;
+    min-height: 30vh;
     display: flex;
     align-items: center;
     overflow: hidden;
@@ -12049,7 +12049,7 @@ header {
         no-repeat;
     background-position: center;
     background-attachment: fixed;
-    min-height: 40vh;
+    min-height: 30vh;
     display: flex;
     align-items: center;
     overflow: hidden;
@@ -12086,7 +12086,7 @@ header {
         no-repeat;
     background-position: center;
     background-attachment: fixed;
-    min-height: 40vh;
+    min-height: 30vh;
     display: flex;
     align-items: center;
     overflow: hidden;
@@ -12426,7 +12426,7 @@ body:after {
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: center;
     background-attachment: fixed;
-    min-height: calc(70vh - 0px);
+    min-height: calc(40vh - 0px);
     display: grid;
     align-items: center;
     padding: 2rem 0;
