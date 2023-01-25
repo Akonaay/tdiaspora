@@ -16,13 +16,15 @@ $(function() {
   $(".navbar-toggler").on("click", function() {
     $("header").toggleClass("active");
 
-    // var scroll = $(window).scrollTop();
+    var scroll = $(window).scrollTop();
 
-    // if (scroll <= 90) {
-    //   $("header").addClass("bg-light");
-    // } else {
-    //   $("header").removeClass("bg-light");
-    // }
+    if (scroll <= 90) {
+      $("header").addClass("bg-dark");
+      // $("unlink").addClass("text-black-1");
+    } else {
+      $("header").removeClass("bg-dark");
+     
+    }
   });
 
   $(document).on("ready", function() {

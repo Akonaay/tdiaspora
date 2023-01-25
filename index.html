@@ -11,7 +11,7 @@
 			type="image/x-icon"
 		/>
 		<link rel="stylesheet" href="/assets/css/style.css" />
-		<!-- <link rel="stylesheet" href="/assets/css/app.css" /> -->
+		<link rel="stylesheet" href="/assets/css/app.css" />
 		<link rel="stylesheet" href="/assets/css/owl.carousel.min.css" />
 		<link rel="stylesheet" href="/assets/css/owl.theme.default.css" />
 		<link
@@ -22,10 +22,10 @@
 
 	<body>
 		<!-- Navbar  -->
-		<div class="">
-			<nav class="navbar navbar-expand-md navbar-light bg-light">
+		<header class="fixed-top" id="site-header">
+			<nav class="navbar navbar-expand-md navbar-light">
 				<a class="navbar-brand" href="/">
-					<img src="/assets/img/logo2.jpg" alt="" width="100px" />
+					<img src="/assets/img/logo1.png" alt="" width="100px" />
 					<!-- <span>TDI</span> -->
 				</a>
 
@@ -44,13 +44,13 @@
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav m-auto">
 						<li class="nav-item active">
-							<a class="nav-link nav-link-menu" href="/"
+							<a class="nav-link nav-link-menu" href="/" id="unlink"
 								>Home <span class="sr-only">(current)</span></a
 							>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link nav-link-menu" href="our-foundation.html"
-								>About TDI</a
+								>About</a
 							>
 						</li>
 						<li class="nav-item">
@@ -66,7 +66,9 @@
 						</li>
 
 						<li class="nav-item">
-							<a class="nav-link nav-link-menu" href="forums.html">Forums</a>
+							<a class="nav-link nav-link-menu" href="conference.html"
+								>Conference</a
+							>
 						</li>
 
 						<li class="nav-item">
@@ -83,7 +85,7 @@
 					</ul>
 				</div>
 			</nav>
-		</div>
+		</header>
 
 		<!-- Slider -->
 		<section class="w3l-main-slider banner-slider" id="home">
@@ -92,7 +94,10 @@
 					<div class="slider-info banner-view banner-top1">
 						<div class="container">
 							<div class="py-4">
-								<h1 class="mb-4 display-4 text-white" style="font-size: 60px">
+								<h1
+									class="mb-4 display-4 text-white pt-sm-5"
+									style="font-size: 60px"
+								>
 									Tanzania Diaspora Initiative
 								</h1>
 								<p>
@@ -103,9 +108,9 @@
 									>
 								</p>
 								<span class="text-white" style="font-size: 22px">
-									A Network that will allow for Tanzanians from all backgrounds
-									to connect and engage with one another, grow and possibly
-									learn from each other.
+									Tanzania Diaspora Initiative – A Network that will allow for
+									Tanzanians from all backgrounds to connect and engage with one
+									another, grow and possibly learn from each other.
 								</span>
 								<br />
 
@@ -142,8 +147,9 @@
 								<div class="mt-5">
 									<a
 										class="btn btn-primary btn-style mr-2 rounded-pill"
-										href="our-foundation.html"
-										>Learn More <i class="fa fa-chevron-right ml-4"></i>
+										href="conference.html"
+										>Learn More
+										<i class="fa fa-chevron-right ml-4"></i>
 									</a>
 								</div>
 							</div>
@@ -199,7 +205,7 @@
 
 							<a
 								href="our-foundation.html"
-								class="btn btn-md btn-success rounded-pill mt-2"
+								class="btn btn-md btn-success rounded mt-2"
 								>Read More <i class="fa fa-arrow-right ml-2"></i
 							></a>
 						</div>
@@ -338,7 +344,7 @@
 					<div class="col-md-5 mt-lg-4">
 						<a
 							href="get-involved.html"
-							class="btn btn-lg rounded-pill"
+							class="btn btn-mdrounded"
 							style="background-color: chartreuse"
 							>Get Started<i class="fa fa-arrow-right ml-3"></i
 						></a>
@@ -403,7 +409,7 @@
 			</div>
 		</div>
 
-		<!-- Donation Money  -->
+		<!-- Donation  -->
 		<div class="py-5">
 			<div class="container">
 				<div class="row">
@@ -577,7 +583,6 @@
 
 		<!-- Caption 01  -->
 		<div class="py-5">
-			<!--  Intro section -->
 			<section class="w3l-intro" id="intro">
 				<div class="new-block top-bottom">
 					<div class="container">
@@ -599,7 +604,7 @@
 			</section>
 		</div>
 
-		<!-- Feature 02  -->
+		<!-- Feature 02 House Challenge -->
 		<div class="py-3">
 			<div class="container">
 				<div class="row text-center justify-content-center mt-4">
@@ -627,9 +632,6 @@
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-6 col-sm-6 p-0">
-						<!-- <div class="img-column">
-            <img src="assets/img/bs4.jpg" alt="product" class="img-responsive" />
-          </div> -->
 						<div class="column-content mt-sm-4 p-4">
 							<div
 								class="column-content-inner box-wrapper"
@@ -670,11 +672,11 @@
 			</div>
 		</div>
 
-		<!-- Feature 03  -->
+		<!-- Feature 03  First Diaspora Conference -->
 		<div class="py-5">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-5">
+					<div class="col-md-5 mb-3">
 						<img
 							src="/assets/img/diaspora.jpg"
 							alt=""
@@ -682,7 +684,7 @@
 						/>
 					</div>
 					<div class="col-md-7 mb-3">
-						<div class="wrapper-inner mt-lg-5">
+						<div class="wrapper-inner mt-lg-5 mt-sm-3">
 							<h3 class="text-label">
 								The First Diaspora Homecoming Conference 2014
 							</h3>
@@ -712,7 +714,7 @@
 		</div>
 
 		<!-- Feature 04 Blog -->
-		<div class="feature-04 py-3">
+		<div class="py-3">
 			<div class="container">
 				<div class="header-title mb-4">
 					<span class="sub-title">Latest Blogs</span>
@@ -723,7 +725,7 @@
 				<div class="row">
 					<div class="col-md-4 mb-3">
 						<div class="blog-content">
-							<img src="/assets/img/blog5.jpg" alt="" class="img-responsive" />
+							<img src="/assets/img/blog1.jpg" alt="" class="img-responsive" />
 							<div class="d-flex justify-content-between">
 								<a
 									href="https://www.prweb.com/releases/rwandan_president_paul_kagame_congratulates_the_african_diaspora_network_on_its_anniversary_and_10_years_of_connecting_silicon_valley_to_african_innovators/prweb17577158.htm"
@@ -738,7 +740,7 @@
 					</div>
 					<div class="col-md-4 mb-3">
 						<div class="blog-content">
-							<img src="/assets/img/blog4.jpg" alt="" class="img-responsive" />
+							<img src="/assets/img/blog2.jpg" alt="" class="img-responsive" />
 							<div class="d-flex justify-content-between">
 								<a
 									href="https://medium.com/authority-magazine/social-impact-investors-how-almaz-negash-of-the-african-diaspora-network-is-helping-to-support-fc977f346356"
@@ -753,7 +755,7 @@
 					</div>
 					<div class="col-md-4 mb-3">
 						<div class="blog-content">
-							<img src="/assets/img/blog6.jpg" alt="" class="img-responsive" />
+							<img src="/assets/img/blog3.jpg" alt="" class="img-responsive" />
 							<div class="d-flex justify-content-between">
 								<a
 									href="https://www.thecitizen.co.tz/tanzania/news/national/diaspora-holds-meeting-in-dar-2514030"
@@ -778,7 +780,7 @@
 					<div class="col-md-4">
 						<a
 							href="contact.html"
-							class="btn btn-style btn-primary rounded-pill mr-3 mt-2 btn-sm"
+							class="btn btn-style btn-primary rounded mr-3 mt-2 btn-sm"
 							>Contact Us
 							<span class="fa fa-arrow-right ml-3" aria-hidden="true"></span
 						></a>
@@ -900,7 +902,7 @@
 			<!-- Copyright  -->
 			<div class="text-center">
 				<div class="bg-light p-3" style="font-weight: 200">
-					<h6>© 2022 Tanzania Diaspora Initiative. All right reserved</h6>
+					<h6>© 2023 Tanzania Diaspora Initiative. All right reserved</h6>
 				</div>
 
 				<div class="p-2">

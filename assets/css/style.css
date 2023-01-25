@@ -4651,7 +4651,7 @@ input[type="button"].btn-block {
     font-size: 1.25rem;
     line-height: 1;
     background-color: transparent;
-    border: 1px solid transparent;
+    border: 2px solid white !important;
     border-radius: 0.25rem;
 }
 
@@ -4667,7 +4667,7 @@ input[type="button"].btn-block {
     vertical-align: middle;
     content: "";
     background: no-repeat center center;
-    background-size: 100% 100%;
+    background-size: 100% 100%;   
 }
 
 @media (max-width: 575.98px) {
@@ -8332,6 +8332,14 @@ button.bg-dark:focus {
     z-index: 1030;
 }
 
+.fixed-top-1 {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
 .fixed-bottom {
     position: fixed;
     right: 0;
@@ -11005,9 +11013,9 @@ header {
     font-size: 19px !important;
 }
 
-/* header.nav-fixed {
-    background-color: var(--bg-color);
-} */
+header.nav-fixed {
+    background-color: whitesmoke;
+}
 
 
 /* header.nav-fixed .navbar-brand img {
@@ -11230,7 +11238,7 @@ header {
 /* Feature 01  */
 
 .back-image-sec {
-    background: url(../img/connect-4.jpg) no-repeat center;
+    background: url(../img/connect.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -11930,11 +11938,11 @@ header {
     margin-right: 15px;
 }
 
-@media screen and (min-width: 1000px) {
+/* @media screen and (min-width: 1000px) {
     .active {
-            border: 1px solid black;
+            border: 1px solid blueviolet;
         }
-}
+} */
 
 
 .box-wrap>h4 {
@@ -12067,7 +12075,7 @@ header {
         no-repeat;
     background-position: center;
     background-attachment: fixed;
-    min-height: 40vh;
+    min-height: 300px;
     display: flex;
     align-items: center;
     overflow: hidden;
@@ -12086,7 +12094,7 @@ header {
         no-repeat;
     background-position: center;
     background-attachment: fixed;
-    min-height: 30vh;
+    min-height: 300px;
     display: flex;
     align-items: center;
     overflow: hidden;
