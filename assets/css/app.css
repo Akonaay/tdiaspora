@@ -176,6 +176,23 @@
     padding-top: 25px;
 }
 
+.objective{
+  background-size: cover;
+    /* linear-gradient(to right, rgba(238, 219, 219, 0.7), rgba(192, 153, 153, 0.445)), */
+    background-image:  url(../img/objectivebg.jpg);
+    background-repeat: no-repeat,
+    no-repeat,
+    no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 90vh !important;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    padding-top: 25px;
+    color: white !important;
+}
+
 .w3l-main-slider .banner-top2 {
   background: url(../img/banner5.jpg) no-repeat center;
   background-size: cover;
@@ -294,10 +311,104 @@
 /* End  */
 
 
+.partners .item{
+  border: 1px solid black;
+}
+
+
 /* about page */
+
+/* convention-inner-banner */
+.convention-inner-banner {
+  background: url(../img/advert.jpg) no-repeat center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  min-height: 300px;
+  position: relative;
+  z-index: 1;
+}
+
+.convention-inner-banner::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgb(0 0 0 / 35%);
+  z-index: -1;
+}
+
+
+.w3l-breadcrumb {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  z-index: 100;
+  padding-top: 150px;
+  z-index: 99;
+}
+
+.breadcrumbs-custom-path {
+  text-align: center !important;
+  display: inline-block;
+}
+
+.breadcrumbs-custom-path li {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 16px;
+  line-height: 1.5;
+  text-transform: capitalize;
+  color: #d4d4d4;
+}
+
+.breadcrumbs-custom-path li span.fa {
+  font-size: 12px;
+}
+
+.breadcrumbs-custom-path a,
+.breadcrumbs-custom-path a:active,
+.breadcrumbs-custom-path a:focus {
+  color: #fff;
+}
+
+@media (max-width: 800px) {
+  .convention-inner-banner {
+    min-height: 260px;
+  }
+
+  .w3l-breadcrumb {
+    padding-top: 120px;
+  }
+
+  .breadcrumbs-custom-path li {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 568px) {
+  .convention-inner-banner {
+    min-height: 200px;
+  }
+
+  .breadcrumbs-custom-path li {
+    font-size: 15px;
+  }
+
+  .w3l-breadcrumb {
+    padding-top: 100px;
+  }
+}
+
+/* //convention-inner-banner */
+
+
 /* inner-banner */
 .inner-banner {
-  background: url(../img/marco.jpg) no-repeat center;
+  background: url(../img/banner1.jpg) no-repeat center;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;

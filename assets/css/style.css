@@ -11426,7 +11426,7 @@ header.nav-fixed {
     display: flex;
     flex-direction: row;
     margin: 5px 0 5px 0;
-    padding: 7px 0 7px 0;
+    padding: 5px 0 0px 0;
     /* background: whitesmoke; */
     text-decoration: none;
     font-weight: bold;
@@ -11745,12 +11745,13 @@ header.nav-fixed {
 
 .feature-05{
     background-size: cover;
-      
+       background-image: linear-gradient(to right, rgba(0, 0, 0, 0.57), rgba(0, 0, 0, 0.33)), url(../img/Day.jpg); 
         background-repeat: no-repeat, no-repeat, no-repeat;
         background-position: center;
         background-attachment: fixed;
         min-height: calc(40vh - 0px);
         padding: 20px;
+        color: white !important;
 }
 
 .call-for-action-bg {
@@ -12430,11 +12431,11 @@ body:after {
 /* Intro summary  */
 .w3l-intro .new-block {
     background-size: cover;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.57), rgba(0, 0, 0, 0.33)), url(../img/g8.jpg);
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.57), rgba(0, 0, 0, 0.33)), url(../img/advert.jpg);
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: center;
     background-attachment: fixed;
-    min-height: calc(40vh - 0px);
+    min-height: calc(70vh - 0px);
     display: grid;
     align-items: center;
     padding: 2rem 0;
@@ -12870,8 +12871,9 @@ body:after {
 
 .box-wrapper {
     text-align: center;
-    color: var(--dark);
-    background-color: #FBF7EE;
+    color: brown;
+    border: 2px solid white !important;
+    background-color: whitesmoke;
     font-weight: 500;
     /* border-radius: 20px 0 20px 50px; */
     transition: .3s ease;
@@ -12889,6 +12891,8 @@ body:after {
     -moz-transition: .3s ease;
     -ms-transition: .3s ease;
     -o-transition: .3s ease;
+    background-color: #16181b;
+    color: white;
 }
 
 .back-cover-image{
@@ -12959,14 +12963,19 @@ body:after {
 
 .objective-inner {
     padding: 30px;
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
     border-radius: 10px;
+    border: 1px;
 }
 
 .objective-inner i{
     padding: 10px;
-    font-size: 24px;
-    color: #03cce6;
+    font-size: 40px;
+    color: gray;
+}
+
+.objective-inner p{
+    text-align: justify;
 }
 
 .ts-bg {
@@ -13023,28 +13032,7 @@ body:after {
     font-size: 20px;
 }
 
-.membership-desc h3{
-    font-size: 22px;
-}
 
-.membership-desc span {
-    margin-bottom: 10px;
-}
-
-.membership-desc span i {
-    margin-right: 10px;
-    color: #03cce6;
-    padding: 15px;
-    background-color: #19692c;
-    margin-top: 10px;
-    font-size: 20px;
-    border-radius: 30px;
-}
-
-.membership-desc span a {
-   
-    font-size: 20px;
-}
 
 @media (max-width: 391px) {
     .w-400{
