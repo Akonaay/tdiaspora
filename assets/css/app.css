@@ -185,11 +185,11 @@
     no-repeat;
     background-position: center;
     background-attachment: fixed;
-    min-height: 90vh !important;
+    min-height: 70vh !important;
     display: flex;
     align-items: center;
     overflow: hidden;
-    padding-top: 25px;
+    /* padding-top: 25px; */
     color: white !important;
 }
 
