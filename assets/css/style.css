@@ -11745,13 +11745,13 @@ header.nav-fixed {
 
 .feature-05{
     background-size: cover;
-       background-image: linear-gradient(to right, rgba(0, 0, 0, 0.57), rgba(0, 0, 0, 0.33)), url(../img/Day.jpg); 
+       /* background-image:  url(../img/Clouds.jpg);  */
         background-repeat: no-repeat, no-repeat, no-repeat;
         background-position: center;
         background-attachment: fixed;
         min-height: calc(40vh - 0px);
         padding: 20px;
-        color: white !important;
+        color: green !important;
 }
 
 .call-for-action-bg {
@@ -12826,7 +12826,7 @@ body:after {
     font-weight: 600;
     font-style: normal;
     padding-left: 70px;
-    color: #48ad20;
+    color: green;
 }
 
 .sub-title:before,
@@ -12835,7 +12835,7 @@ body:after {
     display: block;
     width: 55px;
     height: 3px;
-    background-color: #48ad20;
+    background-color: green;
     position: absolute;
     z-index: 1;
     left: 0;
