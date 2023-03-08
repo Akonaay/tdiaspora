@@ -179,7 +179,7 @@
 .objective{
   background-size: cover;
     /* linear-gradient(to right, rgba(238, 219, 219, 0.7), rgba(192, 153, 153, 0.445)), */
-    background-image:  url(../img/objectivebg.jpg);
+    /* background-image:  url(../img/objectivebg.jpg); */
     background-repeat: no-repeat,
     no-repeat,
     no-repeat;
@@ -677,3 +677,60 @@
 }
 
 /* //progress & faq section */
+
+.btn {
+  background-color: var(--blue) !important;
+}
+
+.program-inner h3{
+  color: black;
+}
+
+.program-inner p{
+  color: #008000;
+}
+
+.wrapper p{
+  color: #008000;
+}
+
+.btn-link{
+  padding: 12px !important;
+  border: none !important;
+  border-radius: 5px;
+  color: black;
+}
+
+.feature-05-inner h3{
+  color: black;
+}
+
+.feature-05-inner h6 a{
+  color: var(--blue) !important;
+}
+
+.menu-link a{
+    color: var(--blue) !important;
+}
+
+.contact-item a{
+  color: var(--blue);
+}
+
+.abt-bg{
+  background: var(--blue);
+}
+
+.blog-content div a{
+  color: var(--blue);
+}
+
+.info-txt a span{
+  color: var(--blue);
+  font-size: 19px;
+}
+
+.info-txt a i{
+  /* color: var(--blue); */
+  font-size: 18px;
+}
