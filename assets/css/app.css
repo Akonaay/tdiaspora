@@ -679,19 +679,19 @@
 /* //progress & faq section */
 
 .btn {
-  background-color: var(--blue) !important;
+  background-color: #008000 !important;
 }
 
 .program-inner h3{
-  color: black;
+  color: #008000;
 }
 
 .program-inner p{
-  color: #008000;
+  color: black;
 }
 
 .wrapper p{
-  color: #008000;
+  color: black;
 }
 
 .btn-link{
@@ -706,28 +706,28 @@
 }
 
 .feature-05-inner h6 a{
-  color: var(--blue) !important;
+  color: #008000 !important;
 }
 
 .menu-link a{
-    color: var(--blue) !important;
+    color: #008000 !important;
 }
 
-.contact-item a{
-  color: var(--blue);
-}
+/* .contact-item a{
+  color: #008000;
+} */
 
 .abt-bg{
   background: var(--blue);
 }
 
 .blog-content div a{
-  color: var(--blue);
+  color: black;
 }
 
 .info-txt a span{
-  color: var(--blue);
-  font-size: 19px;
+  font-size: 16px;
+  color: black;
 }
 
 .info-txt a i{

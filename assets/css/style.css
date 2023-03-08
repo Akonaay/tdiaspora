@@ -12816,7 +12816,7 @@ body:after {
     line-height: 48px;
     font-weight: 600;
     position: relative;
-    color: black !important;
+    color: #008000 !important;
 }
 
 .sub-title,
@@ -12887,7 +12887,7 @@ body:after {
 
 .box-wrapper h3{
     text-align: center;
-    color: black;
+    color: #008000;
 }
 
 .box-wrapper h4 a{
@@ -12897,7 +12897,7 @@ body:after {
 
 .box-wrapper p{
     text-align: center;
-    color: #008000;
+    /* color: #008000; */
     }
 
 .box-wrapper:hover {
@@ -12993,7 +12993,7 @@ body:after {
 
 .objective-inner p{
     text-align: justify;
-    color: #008000;
+    color: black;
 }
 
 .ts-bg {
@@ -13047,7 +13047,7 @@ body:after {
 }
 
 .contact-icons{
-    font-size: 20px;
+    font-size: 18px;
 }
 
 
